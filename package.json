@@ -1,0 +1,17 @@
+{
+  "author": "Camila Luser",
+  "description": "Proyecto Desarrollo Web",
+  "license": "MIT",
+  "name": "coffee-green-coderhouse",
+  "scripts": {
+    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
+    "build:css": "node-sass  --include-path scss scss/main.scss css/styles.css"
+
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.18"
+  }
+}
+
