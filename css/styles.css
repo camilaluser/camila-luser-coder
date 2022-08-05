@@ -12,19 +12,21 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%; }
+ }
 
 .box {
-  display: grid;
-  width: 100%;
-  grid-template-areas: "header"
- "main"
- "footer";
-  grid-template-rows: auto 1fr auto; }
+  display: flex;
+flex-wrap: wrap;}
+
+.in-flex{
+  min-width: 250px;
+}
+
 
 header {
   background: #352c44;
-  min-height: 80px; }
+ width: 100%; 
+}
 
 h1, .titulo.principal {
   color: white;
@@ -56,6 +58,7 @@ h3 {
   .form-inline{
     text-shadow: 1px 1px #bcbdc4;
     font-size: 20px;
+    padding: 20px;
   }
   .text-index{
     font-size: 25px;
@@ -109,8 +112,8 @@ img {
   height: 3000px; }
 
 .img-vission{
-width: 375px;
-height: 300px;
+width: 275px;
+height: 250px;
 }
 
 .p-lead {
@@ -141,9 +144,10 @@ height: 600px;
 }
 .carousel-item p h5{
   font-size: 30px;
-  color: black;
-  text-shadow:  1px 1px white
+  color: white;
 }
+
+
 
 .button {
   display: flex;
@@ -167,8 +171,9 @@ footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #352c44;
-  grid-area: footer;
-  color: #F3F4FC; }
+  width: 100%;
+  color: #F3F4FC; 
+  }
 
 footer #redes {
   display: flex;
@@ -242,10 +247,11 @@ footer #info {
 footer, #info, h3, h4 {
   font-size: 15x; }
 
-footer .footer-container {
+footer  {
   display: flex;
   justify-content: center;
   align-items: center; }
+
 
 #card-index {
   color: black;
@@ -390,34 +396,12 @@ h2 {
   0% {
     transform: translate; }
   100% { } }
+  
 
+  @media screen and (min-width: 300px) {
+    header { width: 100%;
+      } }
+  @media screen and (min-width: 300px){
+  footer { width: 100%;
+  } }
   
-  @media screen and (min-width: 320px) {
-    .box {
-      grid-template-rows: auto 1fr auto;
-      grid-template-areas: "header" "main" "footer"; } }
-  
-  @media screen and (min-width: 480px) {
-    .box {
-      grid-template-rows: auto  1fr auto;
-      grid-template-areas: "header" "main" "footer"; } }
-  
-  @media screen and (min-width: 600px) {
-    .box {
-      grid-template-rows: auto  1fr auto;
-      grid-template-areas: "header" "main" "footer"; } }
-  
-  @media screen and (min-width: 768px) {
-    .box {
-      grid-template-rows: auto  1fr auto;
-      grid-template-areas: "header" "main" "footer"; } }
-  
-  @media screen and (min-width: 1024px) {
-    .box {
-      grid-template-rows: auto  1fr auto;
-      grid-template-areas: "header" "main" "footer"; } }
-  
-  @media screen and (min-width: 1200px) {
-    .box {
-      grid-template-rows: auto  1fr auto;
-      grid-template-areas: "header" "main" "footer"; } }
