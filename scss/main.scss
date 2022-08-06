@@ -374,21 +374,4 @@ h2 {
     
     }
 
-
-.circle {
-  margin-top: 30px;
-  margin-left: 20px;
-  width: 150px;
-  height: 150px;
-  background-color: brown;
-  border-radius: 50%;
-  text-align: center;
-  animation-name: mover;
-  animation-duration: 3s; }
-
-@keyframes mover {
-  0% {
-    transform: translate; }
-  100% { } }
-
  
