@@ -22,7 +22,6 @@ flex-wrap: wrap;}
   min-width: 250px;
 }
 
-
 header {
   background: #352c44;
  width: 100%; 
@@ -68,14 +67,14 @@ h3 {
   color: black;
   text-shadow: 1px 1px #bcbdc4;
 }
-.media-index {
-  color: #F3F4FC; }
+  .media-index {
+    color: #F3F4FC; }
 
-.container-fluid{
-padding: 40px;
-color: black;
-text-shadow: 1px 1px #bcbdc4
-}
+  .container-fluid{
+  padding: 40px;
+  color: black;
+  text-shadow: 1px 1px #bcbdc4
+  }
 
 .container {
   color: black;
@@ -125,29 +124,26 @@ height: 250px;
     color: black;
     text-shadow:  1px 1px #bcbdc4;
    }
+
 .titulo-vission{
   font-size: 35px;
   font-family: 'Calistoga', cursive;
-font-family: 'Lora', serif;
-font-family: 'Secular One', sans-serif;
-font-family: 'Source Code Pro', monospace;
-padding-bottom: 20px;
-padding-top: 20px;
-}
+  font-family: 'Lora', serif;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  }
 
 .text-vission{
-  font-size: 20px;
-}
+  font-size: 20px;}
 
 .carousel-item img {
-height: 600px;
-}
+height: 600px;}
+
 .carousel-item p h5{
   font-size: 30px;
-  color: white;
-}
-
-
+  color: white;}
 
 .button {
   display: flex;
@@ -157,8 +153,8 @@ nav {
   height: 100%;
   align-items: center; }
   .nav-item{
-    color: #F3F4FC;
-  }
+    color: #F3F4FC;}
+
 a{
   color: ivory;
   font-size: large;
@@ -172,8 +168,7 @@ footer {
   padding-bottom: 1rem;
   background-color: #352c44;
   width: 100%;
-  color: #F3F4FC; 
-  }
+  color: #F3F4FC;}
 
 footer #redes {
   display: flex;
@@ -247,12 +242,6 @@ footer #info {
 footer, #info, h3, h4 {
   font-size: 15x; }
 
-footer  {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-
 #card-index {
   color: black;
   display: flex;
@@ -294,7 +283,6 @@ footer  {
   display: inline-block;
   padding-left: 20px; }
 
-
 div.container-fluid {
   padding-top: 20px;
   padding-bottom: 20px; }
@@ -323,10 +311,10 @@ h2 {
     font-family: 'Source Code Pro', monospace;
   }
   
-.form-inline{
-  color: #bcbdc4;
-  text-shadow:  1px 1px rgb(59, 59, 59);
-}
+  .form-inline{
+    color: #bcbdc4;
+    text-shadow:  1px 1px rgb(59, 59, 59);
+  }
 
   .contenedor{
     width: 100%;
@@ -361,7 +349,6 @@ h2 {
       opacity: 0;
       visibility: hidden;
       text-align: center;
-    
     }
     .contenedor figure .capa p{
       color: #F3F4FC;
@@ -379,29 +366,3 @@ h2 {
     visibility: visible;
     
     }
-
-
-.circle {
-  margin-top: 30px;
-  margin-left: 20px;
-  width: 150px;
-  height: 150px;
-  background-color: brown;
-  border-radius: 50%;
-  text-align: center;
-  animation-name: mover;
-  animation-duration: 3s; }
-
-@keyframes mover {
-  0% {
-    transform: translate; }
-  100% { } }
-  
-
-  @media screen and (min-width: 300px) {
-    header { width: 100%;
-      } }
-  @media screen and (min-width: 300px){
-  footer { width: 100%;
-  } }
-  
