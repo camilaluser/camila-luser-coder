@@ -17,7 +17,6 @@ body {
  flex-wrap: wrap;
 background: #F3F4FC;}
 
-
 header {
   background: #352c44;
   width: 100%; 
@@ -96,7 +95,6 @@ img {
   height: 220px;
   align-items: center; }
 
-
 .img-mission {
   width: 900px;
   height: 3000px; }
@@ -128,9 +126,6 @@ height: 250px;
 .text-vission{
   font-size: 20px;}
 
-.carousel-item img {
-height: 600px;}
-
 .carousel-item p h5{
   font-size: 30px;
   color: white;}
@@ -153,7 +148,6 @@ main {
   grid-area: main; }
 
 footer {
-
   padding-bottom: 1rem;
   background-color: #352c44;
   width: 100%;
@@ -230,7 +224,7 @@ footer #info {
 
 footer, #info, h3, h4 {
   font-size: 15x; }
-  
+
 #card-index {
   color: black;
   display: flex;
@@ -361,14 +355,17 @@ h2 {
     .img-index {
       width: 200px;
       height: 250px;
-      align-items: center;
-    }}
-
+      align-items: center;}
+      .carousel-item img {
+        height: 400px;}
+        }
     @media screen and  (min-width: 768px) {
       header{ width: 100;}
       footer{ width: 100;}
       body{width: 100;}
-    }
+      .carousel-item img {
+        height: 600px;}
+         }
     @media screen and  (min-width: 1200px) {
       header{ width: 100;}
       footer{ width: 100;}
@@ -380,10 +377,10 @@ h2 {
       .img-index {
         width: 700px;
         height: 750px;
-        align-items: center;
-       }
-      
-    }
+        align-items: center;}
+        .carousel-item img {
+        height: 600px;}
+        }
     
       
 
