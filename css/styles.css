@@ -6,8 +6,6 @@
 
 body {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1rem;
-  height: 100%;
   background-image: url(../images/ea4eea9a4c67ebdca7704cd65e970fc9.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -19,13 +17,10 @@ body {
  flex-wrap: wrap;
 background: #F3F4FC;}
 
-.in-flex{
-  min-width: 250px;
-}
 
 header {
   background: #352c44;
- width: 100%; 
+  width: 100%; 
 }
 
 h1, .titulo.principal {
@@ -94,18 +89,13 @@ font-size: 20px;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
-  background-size: 10rem; }
+   }
 
 img {
   width: 250px;
   height: 220px;
   align-items: center; }
 
-.img-index {
-  width: 700px;
-  height: 750px;
-  align-items: center;
- }
 
 .img-mission {
   width: 900px;
@@ -118,8 +108,7 @@ height: 250px;
 
 .p-lead {
   color: #F3F4FC;
-  text-shadow: black;
-  text-overflow: clip; }
+  text-shadow: black; }
 
 .media-vission{
     color: black;
@@ -161,11 +150,10 @@ a{
   font-size: large;
 }
 main {
-  grid-area: main;
-  background-image: url(f4379b75a9badc1bec47ada0b6e3c9f2.jpg); }
+  grid-area: main; }
 
 footer {
-  padding-top: 1rem;
+
   padding-bottom: 1rem;
   background-color: #352c44;
   width: 100%;
@@ -179,7 +167,7 @@ footer #redes {
 footer #redes ul {
   position: relative;
   display: flex;
-  z-index: 2; }
+   }
 
 footer #redes ul li {
   position: relative;
@@ -243,10 +231,6 @@ footer #info {
 footer, #info, h3, h4 {
   font-size: 15x; }
   
-.copyright p{
-  justify-items: center;
-  padding-left: 515px;
-}
 #card-index {
   color: black;
   display: flex;
@@ -262,7 +246,6 @@ footer, #info, h3, h4 {
 
 #card-index, section.organic, section.recipes {
   display: inline-block;
-  min-height: 200px;
   padding: 40px;
   width: 100%; }
 
@@ -371,12 +354,16 @@ h2 {
     }
 
 
-    @media screen and (min-width:360px){
+    @media screen and (max-width:360px){
      header{ width: 100;}
      footer{ width: 100;}
-     body {width: 100;}
+     body {width: 100; }
+    .img-index {
+      width: 200px;
+      height: 250px;
+      align-items: center;
+    }}
 
-      }
     @media screen and  (min-width: 768px) {
       header{ width: 100;}
       footer{ width: 100;}
@@ -385,7 +372,17 @@ h2 {
     @media screen and  (min-width: 1200px) {
       header{ width: 100;}
       footer{ width: 100;}
+      .copyright p{
+        justify-items: center;
+        padding-left: 515px;
+      }
       body{width: 100;}
+      .img-index {
+        width: 700px;
+        height: 750px;
+        align-items: center;
+       }
+      
     }
     
       
